@@ -58,10 +58,26 @@
     color: white;
     background-color: var(--PaleSky);
     border-radius: 3px;
+    transition: all 0.3s ease;
 }
 
 .profile_inner a:hover {
-    background-color: var(--PaleSky);
+    background-color: var(--AirForceBlue);
+    transform: scale(1.05);
+}
+
+.work_experience_content ul {
+    margin: 10px 0 32px 24px;
+    list-style-type: disc;
+}
+
+.work_experience_content a {
+    display: inline;
+    color: var(--AirForceBlue);
+}
+
+.work_experience_content #nebula {
+    color: #288719;
 }
 
 .education li{
@@ -74,7 +90,7 @@
     font-weight: 300;
 }
 
-.profile h2, .education {
+.profile h2, .work_experience, .education {
     margin-top: 48px;
 }
 
@@ -134,7 +150,6 @@
 }
 
 .skill_inner {
-    width: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -142,7 +157,7 @@
 }
 
 .skill_inner ul {
-    font-size: 20px;
+    font-size: 16px;
     border-left: 1px solid #96A9C4;
     padding-left: 24px;
 }
@@ -151,12 +166,3 @@
     margin: 10px 0;
 }
 
-.work_experience_content ul {
-    margin: 10px 0 32px 24px;
-    list-style-type: disc;
-}
-
-.work_experience_content a {
-    display: inline;
-    color: var(--AirForceBlue);
-}
